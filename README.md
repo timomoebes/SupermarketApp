@@ -23,4 +23,19 @@ Ensure you have a C++ compiler installed on your system. GCC/G++ or Clang are re
 git clone https://github.com/timomoebes/SupermarketApp.git
 
 2. Navigate to the cloned directory.
-3. Compile the C++ file. For example, if you are using G++, run: g++ -std=c++11 -o SupermarketApp billing1.cpp
+3. Compile the C++ file. For example, if you are using G++, run:
+   g++ -std=c++11 -o billing1 billing1.cpp
+
+4. Run the compiled application:
+   ./billing1
+
+## Usage
+
+Upon running the application, you will be greeted with the main menu. You can choose to enter as an administrator or a buyer:
+
+- **Administrator Mode**: Log in with the correct credentials. Once logged in, you can add, edit, or delete products in the system.
+- **Buyer Mode**: Browse available products and add them to your shopping cart. Once you are done, you can view your receipt.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
