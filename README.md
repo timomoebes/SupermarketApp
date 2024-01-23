@@ -20,3 +20,7 @@ Ensure you have a C++ compiler installed on your system. GCC/G++ or Clang are re
 ### Installation
 
 1. Clone the repository to your local machine:
+git clone https://github.com/timomoebes/SupermarketApp.git
+
+2. Navigate to the cloned directory.
+3. Compile the C++ file. For example, if you are using G++, run: g++ -std=c++11 -o SupermarketApp billing1.cpp
